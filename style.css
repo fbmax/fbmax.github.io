@@ -308,14 +308,15 @@ h3.notion-heading {
 .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>span, .notion-collection-card__cover.medium img {
     height: 280px!important;
     max-height: 280px!important;
+    width: 80%!important;
+    margin: auto!important;
 }
 .notion-collection-card {
-    width: 80%!important;
+    width: 100%
     height: 100%;
     box-shadow: none!important;
     border-radius: var(--border-radius)!important;
     border: 1px solid var(--color-border-default)!important;
-    margin: auto!important;
 }
 .notion-collection-card:hover {
     background: var(--color-hover-default)!important;
