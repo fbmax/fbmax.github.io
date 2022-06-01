@@ -310,11 +310,12 @@ h3.notion-heading {
     max-height: 280px!important;
 }
 .notion-collection-card {
-    width: 10%;
+    width: 80%!important;
     height: 100%;
     box-shadow: none!important;
     border-radius: var(--border-radius)!important;
     border: 1px solid var(--color-border-default)!important;
+    margin: auto!important;
 }
 .notion-collection-card:hover {
     background: var(--color-hover-default)!important;
@@ -367,8 +368,6 @@ h3.notion-heading {
     .notion-collection-card__cover.medium, .notion-collection-card__cover.medium>span, .notion-collection-card__cover.medium img {
         height: 200px!important;
         max-height: 200px!important;
-        width: 80%!important;
-        margin: auto!important;
     }
 }
 .notion-root .notion-text .notion-text__content .notion-semantic-string span strong .notion-link, .notion-text .notion-text__content .notion-semantic-string span .notion-link strong {
